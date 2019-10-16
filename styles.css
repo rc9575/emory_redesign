@@ -33,16 +33,25 @@
 	font-size: 6em;
 	padding-right: 1.5em;
 	color: #FFFFFF;
-	text-align: center;
 }
 
 .history-dept p {
 	margin: 0;
-	display: inline-block;
+}
+
+nav {
+	line-height: 50px;
+	
+}
+nav a {
+	vertical-align: middle;
+	padding: 2em;
+	text-decoration: none;
 }
 
 body {
 	margin: 0px;
 }
+
 
 
