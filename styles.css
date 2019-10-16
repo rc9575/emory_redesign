@@ -32,9 +32,11 @@
 	font-size: 6em;
 	padding-right: 1.5em;
 	color: #FFFFFF;
+	text-align: center;
 }
 
 .history-dept p {
+	display:inline-block;
 	margin: 0;
 }
 
