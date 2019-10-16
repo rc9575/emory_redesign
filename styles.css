@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+.background {
+	
+	min-width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -100;
+	background: #354F93;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.background img {
+	opacity: .45;
+	width:100vw;
+	height: inherit;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+	height: 270px;
+}
+
+.links img {
+	height: 270px;
+
+}
+
+.history-dept {
+	font-family: 'Satisfy', cursive;
+	font-size: 6em;
+	padding-right: 1.5em;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.history-dept p {
+	margin: 0;
+	display: inline-block;
+}
+
+body {
+	margin: 0px;
+}
+
+
