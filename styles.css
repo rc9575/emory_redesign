@@ -4,7 +4,7 @@
 .background {
 	min-width: 100vw;
 	position: absolute;
-	top: 0;	
+	top: 0;
 	z-index: -100;
 	background: #354F93;
 	box-sizing: border-box;
@@ -45,9 +45,9 @@ nav {
 }
 
 nav a {
-	
+
 	vertical-align: middle;
-	padding: 2em;
+	padding: 5em;
 	text-decoration: none;
 }
 
@@ -115,7 +115,3 @@ body {
 a:link, a:visited {
     color: #354F93;
 }
-
-
-
-
