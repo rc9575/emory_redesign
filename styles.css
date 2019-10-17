@@ -116,7 +116,7 @@ a:link, a:visited {
     color: #354F93;
 }
 /* Scaling up for 4k */
-@media (min-width: 3000px) {
+@media (min-width: 3800px) {
 
 	.links {
 		height: 675px;
