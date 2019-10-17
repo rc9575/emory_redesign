@@ -45,7 +45,7 @@ nav {
 }
 
 nav a {
-	font-family: 'Roboto', sans-serif;
+	
 	vertical-align: middle;
 	padding: 2em;
 	text-decoration: none;
@@ -61,7 +61,7 @@ nav a {
 
 .recent-news {
 	margin-top: 10em;
-	background-color: #C4C4C4;
+	/*background-color: #C4C4C4;*/
 	height:400px;
 }
 
@@ -74,12 +74,46 @@ nav a {
 	height: 85%;
 }
 
+h2.title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c9c6be;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.news-row {
+	display: flex;
+	text-align: center;
+	margin: 1em;
+}
+
+.news-row a {
+	padding: 1em;
+	margin: auto;
+
+}
+.news-row a img {
+	height: auto;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+.pic-container {
+	height:100%;
+	flex: 1;
+}
+
 body {
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 a:link, a:visited {
-    color: #000000;
+    color: #354F93;
 }
 
 
