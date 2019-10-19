@@ -151,3 +151,31 @@ a:link, a:visited {
 		font-size: 3em;
 	}
 }
+
+
+/*
+Current bugs:
+Pictures not same size and too big
+Text not in the right place
+Hamburger bar not inserted yet
+ */
+/* Scaling  for tablet(ipad) in portrait mode*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	nav a {
+		display: none;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		background-color: #E5E5E5;
+		height: 40px;
+	 	/* background-image: url(assets/hamburger_bar.jpg);	 */
+	}
+
+	.container {
+		overflow: scroll;
+		flex-direction: column;
+	}
+
+}
