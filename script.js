@@ -26,4 +26,7 @@ function show_slide(num) {
     }
     dots[num].className += " current";
 }
-  
+
+function hamburger() {
+
+}
