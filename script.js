@@ -29,10 +29,13 @@ function show_slide(num) {
 
 function toggle_dropdown() {
     var nav = document.getElementById("nav");
+    var icon = document.getElementById("icon");
     if(nav.className === "nav") {
         nav.className += " toggle";
+        icon.src = "assets/x_box.jpg";
     }
     else {
         nav.className = "nav";
+        icon.src = "assets/hamburger_bar.jpg";
     }
 }
