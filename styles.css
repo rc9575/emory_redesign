@@ -41,12 +41,14 @@
 }
 
 nav {
+	height: 50px;
 	line-height: 50px;
+	display: flex;
 }
 
 nav a {
+	margin: 0 auto;
 	vertical-align: middle;
-	padding: 5em;
 	text-decoration: none;
 }
 
@@ -194,8 +196,6 @@ a {
 	background-color: rgba(0,0,0,0.8);
 }
 
-
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -222,8 +222,6 @@ a {
   padding: 8px 12px;
   min-width: 20%;
   text-align: center;
-
-
 }
 
 
@@ -265,7 +263,7 @@ Current bugs and To Do:
 Pictures not same size and too big
 Text not in the right place
 Hamburger bar not button yet
-Ne
+
  */
 /* Scaling  for tablet(ipad) in portrait mode*/
 @media (min-width: 768px) and (max-width: 1024px) {
