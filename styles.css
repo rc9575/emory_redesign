@@ -280,12 +280,12 @@ Hamburger bar not button yet
 		overflow: scroll;
 		flex-direction: column;
 	}
+}
 
+@media (max-width: 1024px) {
 	div.hamburger_bar {
 		content:url(assets/hamburger_bar.jpg);
 		height: 40px;
 		width:	60px;
-		padding-top: 1px;
-		padding-left: 918px;
 	}​
 }
