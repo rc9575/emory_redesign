@@ -163,7 +163,7 @@ a {
 
 .article-toggle {
 	display: flex;
-	height: 40px; 
+	height: 40px;
 }
 
 .article:not(:first-child){
@@ -187,7 +187,7 @@ a {
 }
 
 .circle-display:hover .prev{
-	background-color: rgba(0,0,0,0.8);	
+	background-color: rgba(0,0,0,0.8);
 }
 
 .circle-display:hover .next{
@@ -278,6 +278,11 @@ Ne
 		background-color: #E5E5E5;
 		height: 40px;
 	}
+	.
+	container {
+		overflow: scroll;
+		flex-direction: column;
+	}
 
 	div.hamburger_bar {
 		content:url(assets/hamburger_bar.jpg);
@@ -286,8 +291,4 @@ Ne
 		padding-top: 1px;
 		padding-left: 918px;
 	}​
-	.container {
-		overflow: scroll;
-		flex-direction: column;
-	}
 }
