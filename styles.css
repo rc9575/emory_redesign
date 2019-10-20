@@ -224,6 +224,15 @@ a {
   text-align: center;
 }
 
+.icon {
+	height: 40px; 
+	width: 60px;
+	display: none;
+}
+
+.icon img {
+	width: 100%;
+}
 
 .dot {
   cursor: pointer;
@@ -259,20 +268,36 @@ a {
 }
 
 /* Scaling  for tablet(ipad) in portrait mode*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width:1024px) {
 	nav a {
 		display: none;
 	}
-	nav {
+	.icon {
+		display: flex;
+		margin: 0;
+	}
+	.nav.toggle {
 		display: flex;
 		flex-direction: column;
-		background-color: #E5E5E5;
-		height: 40px;
+		width: 237px;
+		height: 340px;
+		border: 2px solid #354F93;
+
+	}
+	.nav.toggle a{
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+	.nav.toggle a:hover{
+		background-color: #354F93;
+		color: #FFFFFF;
 	}
 }
 
 /*scaling for phone*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
+	
 	.news-row a img {
 		height: 400px;
 		width:	340px;

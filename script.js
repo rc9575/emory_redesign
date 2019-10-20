@@ -27,6 +27,12 @@ function show_slide(num) {
     dots[num].className += " current";
 }
 
-function hamburger() {
-
+function toggle_dropdown() {
+    var nav = document.getElementById("nav");
+    if(nav.className === "nav") {
+        nav.className += " toggle";
+    }
+    else {
+        nav.className = "nav";
+    }
 }
