@@ -6,6 +6,7 @@
   <title>Emory University</title>
   <meta name="Department of History" content="">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -31,12 +32,30 @@
 	</nav>
 
 	<div class = "content">
+		
 		<div class = "circle-display">
-			<div class = "articles">
-				<!-- articles -->
+			<div class = "article fade">
+			    <img src="assets/baltic.jpg">
+			    <div class="caption">Caption 1</div>
 			</div>
+
+			<div class = "article fade">
+			    <img src="assets/baltic_.jpg">
+			    <div class="caption">Caption 2</div>
+			</div>
+
+			<div class = "article fade">
+			    <img src="assets/emory.jpg">
+			    <div class="caption">Caption 3</div>
+			</div>
+
+			<a class="prev" onclick="transition(-1)">&#10094;</a>
+  			<a class="next" onclick="transition(1)">&#10095;</a>
+
 			<div class = "article-toggle">
-				<!-- buttons -->
+				<span class="dot current" onclick="show_slide(0)"></span>
+			 	<span class="dot" onclick="show_slide(1)"></span>
+			 	<span class="dot" onclick="show_slide(2)"></span>
 			</div>
 		</div>
 
