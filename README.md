@@ -5,8 +5,8 @@ UI improvements:
 
 Navbar
 ![responsive, visually pleasing navbar]
-(../master/assets/navbar.png)
+(../assets/navbar.png)
 
 Article Slideshow
 ![customized slideshow]
-(../master/assets/slideshow.png)
+(../assets/slideshow.png)
