@@ -3,8 +3,8 @@ CS1300 Redesign Project, Ryan Choi and Varun Senthil Nathan
 
 UI improvements:
 
-##Navbar##
+## Navbar
 <img src="/assets/navbar.png" alt="navbar"/>
-##Article Slideshow##
+## Article Slideshow
 <img src="/assets/slideshow.png" alt="slideshow"/>
 
